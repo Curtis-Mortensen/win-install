@@ -57,9 +57,19 @@ All operations are logged to the `Logs` directory with timestamps. Each run crea
 - Provides detailed logging of all operations
 - Asks for confirmation before each major operation
 
-## Contributing
+## 🤖 AI Collaboration Note
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+This project was developed in collaboration with AI (Claude 3.5 Sonnet). The AI assisted in:
+- Script structure and logic
+- Documentation and README creation
+- Best practices implementation
+- Error handling and logging features
+
+While AI was used as a development tool, all code has been reviewed and tested by a human in the loop for functionality and security. 
+
+## Contributions
+
+Contributions are welcome! If you're interested in improving this project, please feel free to submit a Pull Request.
 
 ## License
 
