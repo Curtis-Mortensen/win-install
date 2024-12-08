@@ -1,0 +1,175 @@
+{
+    "registry_changes": [
+      {
+        "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection",
+        "name": "AllowTelemetry",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Telemetry"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\DataCollection",
+        "name": "AllowTelemetry",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Telemetry (Secondary Path)"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search",
+        "name": "AllowCortana",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Cortana"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Search",
+        "name": "CortanaEnabled",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Cortana (Secondary Path)"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Folder\\Hidden\\SHOWALL",
+        "name": "CheckedValue",
+        "type": "DWORD",
+        "value": 1,
+        "fallback_paths": [],
+        "description": "Show Hidden Files"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AdvertisingInfo",
+        "name": "Enabled",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Advertising ID"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AdvertisingInfo",
+        "name": "DisabledByGroupPolicy",
+        "type": "DWORD",
+        "value": 1,
+        "fallback_paths": [],
+        "description": "Disable Advertising ID by Policy"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Privacy",
+        "name": "TailoredExperiencesWithDiagnosticDataEnabled",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Personalized Advertising"
+      },
+      {
+        "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters",
+        "name": "DisabledComponents",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Enable IPv6"
+      },
+      {
+        "path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters",
+        "name": "RandomizeIdentifiers",
+        "type": "DWORD",
+        "value": 1,
+        "fallback_paths": [],
+        "description": "Enable IPv6 Address Randomization"
+      },
+      {
+        "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+        "name": "SubscribedContent-338388Enabled",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Suggested Content in Settings App"
+      },
+      {
+        "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+        "name": "SubscribedContent-338389Enabled",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Suggestions in Start Menu"
+      },
+      {
+        "path": "HKCU:\\Control Panel\\International\\User Profile",
+        "name": "HttpAcceptLanguageOptOut",
+        "type": "DWORD",
+        "value": 1,
+        "fallback_paths": [],
+        "description": "Prevent Websites from Accessing Language List"
+      },
+      {
+        "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+        "name": "Start_TrackProgs",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable App Launch Tracking"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+        "name": "DisableWindowsConsumerFeatures",
+        "type": "DWORD",
+        "value": 1,
+        "fallback_paths": [],
+        "description": "Disable Consumer Features"
+      },
+      {
+        "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+        "name": "SystemPaneSuggestionsEnabled",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Suggestions in Settings"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System",
+        "name": "EnableActivityFeed",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Activity Feed"
+      },
+      {
+        "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Privacy",
+        "name": "TailoredExperiencesWithDiagnosticDataEnabled",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Tailored Experiences"
+      }
+    ],
+    "install": {
+        "winget_packages": [
+            "Microsoft.PowerShell",
+            "Audacity.Audacity",
+            "ProtonTechnologies.ProtonVPN",
+            "Git.Git",
+            "Discord.Discord",
+            "Joplin.Joplin",
+            "IDRIX.VeraCrypt",
+            "Jan.Jan",
+            "OpenJS.NodeJS",
+            "Logitech.UnifyingSoftware",
+            "Browser.Arc",
+            "Anysphere.Cursor"
+        ]
+    },
+    "uninstall": {
+        "winget_packages": [
+            "Windows Web Experience Pack",
+            "Xbox Game Bar",
+            "Get Started",
+            "Get Help",
+            "Phone Link",
+            "Microsoft Teams",
+            "Microsoft 365 Apps"
+        ]
+    }
+}
