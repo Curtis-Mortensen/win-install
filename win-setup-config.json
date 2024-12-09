@@ -143,6 +143,38 @@
         "value": 0,
         "fallback_paths": [],
         "description": "Disable Tailored Experiences"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\GameDVR",
+        "name": "AppCaptureEnabled",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Xbox Game Bar App Capture"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\GameDVR",
+        "name": "AllowGameDVR",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Xbox Game Bar Game DVR"
+      },
+      {
+        "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection",
+        "name": "DoNotShowFeedbackNotifications",
+        "type": "DWORD",
+        "value": 1,
+        "fallback_paths": [],
+        "description": "Disable Feedback Hub Notifications"
+      },
+      {
+        "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+        "name": "SubscribedContent-338388Enabled",
+        "type": "DWORD",
+        "value": 0,
+        "fallback_paths": [],
+        "description": "Disable Microsoft Tips"
       }
     ],
     "install": {
@@ -163,13 +195,22 @@
     },
     "uninstall": {
         "winget_packages": [
-            "Windows Web Experience Pack",
-            "Xbox Game Bar",
-            "Get Started",
-            "Get Help",
-            "Phone Link",
-            "Microsoft Teams",
-            "Microsoft 365 Apps"
+            "MicrosoftWindows.WebExperiencePack",
+            "Microsoft.XboxGamingOverlay",
+            "Microsoft.Getstarted",
+            "Microsoft.GetHelp",
+            "Microsoft.YourPhone",
+            "Microsoft.Teams",
+            "Microsoft.Office",
+            "Microsoft.WindowsFeedbackHub",
+            "microsoft.windowscommunicationsapps",
+            "Microsoft.WindowsMaps",
+            "Microsoft.BingNews",
+            "Microsoft.Todos",
+            "Microsoft.OneDrive",
+            "Microsoft.Office",
+            "Microsoft.MicrosoftSolitaireCollection",
+            "Microsoft.GamingApp"
         ]
     }
 }
