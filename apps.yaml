@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://aka.ms/winget-packages.schema.2.0.yaml
+CreationDate: 2024-03-20
+Sources:
+  - Packages:
+      - PackageIdentifier: Microsoft.PowerShell
+      - PackageIdentifier: Audacity.Audacity
+      - PackageIdentifier: ProtonTechnologies.ProtonVPN
+      - PackageIdentifier: Git.Git
+      - PackageIdentifier: Discord.Discord
+      - PackageIdentifier: Joplin.Joplin
+      - PackageIdentifier: IDRIX.VeraCrypt
+      - PackageIdentifier: Jan.Jan
+      - PackageIdentifier: OpenJS.NodeJS
+      - PackageIdentifier: Logitech.UnifyingSoftware
+      - PackageIdentifier: Browser.Arc
+      - PackageIdentifier: Anysphere.Cursor
+    SourceDetails:
+      Name: winget
+      Argument: https://cdn.winget.microsoft.com/cache
+WinGetVersion: 1.6.3133
