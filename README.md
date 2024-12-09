@@ -4,9 +4,8 @@ A PowerShell script for automating Windows setup tasks, including privacy-focuse
 
 ## Features
 
-- 🛡️ Apply privacy-focused registry modifications
-- 📦 Bulk install applications using winget
-- 🧹 Remove unnecessary Windows applications
+- 🛡️ Apply **22** privacy-focused registry modifications
+- 🧹 Remove **16** unnecessary Windows applications
 - 📝 Detailed logging of all operations
 - ⚙️ Configurable via JSON file
 
