@@ -179,38 +179,10 @@
     ],
     "install": {
         "winget_packages": [
-            "Microsoft.PowerShell",
-            "Audacity.Audacity",
-            "ProtonTechnologies.ProtonVPN",
-            "Git.Git",
-            "Discord.Discord",
-            "Joplin.Joplin",
-            "IDRIX.VeraCrypt",
-            "Jan.Jan",
-            "OpenJS.NodeJS",
-            "Logitech.UnifyingSoftware",
-            "Browser.Arc",
-            "Anysphere.Cursor"
         ]
     },
     "uninstall": {
         "winget_packages": [
-            "MicrosoftWindows.WebExperiencePack",
-            "Microsoft.XboxGamingOverlay",
-            "Microsoft.Getstarted",
-            "Microsoft.GetHelp",
-            "Microsoft.YourPhone",
-            "Microsoft.Teams",
-            "Microsoft.Office",
-            "Microsoft.WindowsFeedbackHub",
-            "microsoft.windowscommunicationsapps",
-            "Microsoft.WindowsMaps",
-            "Microsoft.BingNews",
-            "Microsoft.Todos",
-            "Microsoft.OneDrive",
-            "Microsoft.Office",
-            "Microsoft.MicrosoftSolitaireCollection",
-            "Microsoft.GamingApp"
         ]
     }
 }
